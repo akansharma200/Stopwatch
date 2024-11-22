@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Timer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch">
+            <div class="setting">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="over-all">
+                <div class="counts">
+                    <div class="count-box" id="htime">00</div>
+                </div>
+                <div class="colon">:</div>
+                <div class="counts">
+                    <div class="count-box" id="mtime">00</div>
+                </div>
+                <div class="colon">:</div>
+                <div class="counts">
+                    <div class="count-box" id="stime">00</div>
+                </div>
+            </div>
+            <div class="btm-part">
+                <div id="pause"> <button>Pause</button> </div>
+                <div id="start"> <button>Start</button> </div>
+                <div id="reset"> <button>Reset</button> </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
